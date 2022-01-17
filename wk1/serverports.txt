@@ -1,0 +1,31 @@
+• What is the definition of server port?
+- Server ports are the endpoints(logical) of a network conection which is used for information exchange between a client and a server.
+These ports have a unique number so that they can be identified separately.
+
+• What is server port range?
+-The range of the server ports are from 0 to 65535. However, only 0 to 1023 port numbers are reserved (for priviledged services) and are designated as well-known ports.
+
+• How many bits does number above represent?
+
+• State 10 common server ports
+1) 20 - File Transfer Protocol (FTP) Data Transfer
+
+2) 21 - File Transfer Protocol (FTP) Command Control
+
+3) 22 - Secure Shell (SSH)
+
+4) 23 - Telnet - Remote login service, unencrypted text messages
+
+5) 25 - Simple Mail Transfer Protocol (SMTP) E-mail Routing
+
+6) 53 - Domain Name System (DNS) service
+
+7) 80 - Hypertext Transfer Protocol (HTTP) used in World Wide Web
+
+8) 110 - Post Office Protocol (POP3) used by e-mail clients to retrieve e-mail from a server
+
+9) 119 - Network News Transfer Protocol (NNTP)
+
+10) 123 -Network Time Protocol (NTP)
+
+11) 143 - Internet Message Access Protocol (IMAP) Management of Digital Mail
