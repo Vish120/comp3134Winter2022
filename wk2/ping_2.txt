@@ -1,0 +1,15 @@
+Ping 2 - from local machine
+
+
+$ ping georgebrown.ca
+
+Pinging georgebrown.ca [99.79.139.11] with 32 bytes of data:
+Reply from 99.79.139.11: bytes=32 time=37ms TTL=47
+Reply from 99.79.139.11: bytes=32 time=25ms TTL=47
+Reply from 99.79.139.11: bytes=32 time=24ms TTL=47
+Reply from 99.79.139.11: bytes=32 time=24ms TTL=47
+
+Ping statistics for 99.79.139.11:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 24ms, Maximum = 37ms, Average = 27ms
