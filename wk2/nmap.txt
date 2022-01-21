@@ -1,0 +1,30 @@
+1) Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-21 05:42 UTC
+Nmap scan report for comp3134-winter-2022-intro-to-cyber-security (147.182.158.58)
+Host is up (0.000014s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+25/tcp open  smtp
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.16 seconds
+
+2) Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-21 05:43 UTC
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 3.06 seconds
+
+3) root@comp3134-winter-2022-intro-to-cyber-security:~# nmap -p 13-50 147.182.158.58
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-21 05:44 UTC
+Nmap scan report for comp3134-winter-2022-intro-to-cyber-security (147.182.158.58)
+Host is up (0.000011s latency).
+Not shown: 36 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+25/tcp open  smtp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.07 seconds
+
+4) root@comp3134-winter-2022-intro-to-cyber-security:~# nmap -F
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-21 05:45 UTC
+WARNING: No targets were specified, so 0 hosts scanned.
+Nmap done: 0 IP addresses (0 hosts up) scanned in 0.07 seconds
