@@ -1,0 +1,103 @@
+root@comp3134-winter-2022-intro-to-cyber-security:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+07:07:51.612376 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 1028288503:1028288611, ack 1998888333, win 501, options [nop,nop,TS val 3371413549 ecr 796783041], length 108
+07:07:51.612474 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 3371413549 ecr 796783041], length 36
+07:07:51.612547 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 144:252, ack 1, win 501, options [nop,nop,TS val 3371413549 ecr 796783041], length 108
+07:07:51.612628 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 252:288, ack 1, win 501, options [nop,nop,TS val 3371413550 ecr 796783041], length 36
+07:07:51.613446 IP comp3134-winter-2022-intro-to-cyber-security.52037 > 67.207.67.3.domain: 61273+ [1au] PTR? 247.10.253.99.in-addr.arpa. (55)
+07:07:51.613571 IP comp3134-winter-2022-intro-to-cyber-security.42491 > 67.207.67.3.domain: 64097+ [1au] PTR? 247.10.253.99.in-addr.arpa. (55)
+07:07:51.614100 IP comp3134-winter-2022-intro-to-cyber-security.54392 > 67.207.67.3.domain: 3888+ [1au] PTR? 58.158.182.147.in-addr.arpa. (56)
+07:07:51.614179 IP comp3134-winter-2022-intro-to-cyber-security.42859 > 67.207.67.2.domain: 2534+ [1au] PTR? 58.158.182.147.in-addr.arpa. (56)
+07:07:51.614245 IP comp3134-winter-2022-intro-to-cyber-security.41763 > 67.207.67.3.domain: 57645+ [1au] PTR? 58.158.182.147.in-addr.arpa. (56)
+07:07:51.614480 IP 67.207.67.3.domain > comp3134-winter-2022-intro-to-cyber-security.52037: 61273 1/0/1 PTR cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com. (119)
+07:07:51.614480 IP 67.207.67.3.domain > comp3134-winter-2022-intro-to-cyber-security.41763: 57645 NXDomain 0/1/1 (123)
+07:07:51.614480 IP 67.207.67.3.domain > comp3134-winter-2022-intro-to-cyber-security.42491: 64097 1/0/1 PTR cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com. (119)
+07:07:51.614481 IP 67.207.67.2.domain > comp3134-winter-2022-intro-to-cyber-security.42859: 2534 NXDomain 0/1/1 (123)
+07:07:51.614508 IP comp3134-winter-2022-intro-to-cyber-security > 67.207.67.3: ICMP comp3134-winter-2022-intro-to-cyber-security udp port 52037 unreachable, length 155
+07:07:51.614529 IP comp3134-winter-2022-intro-to-cyber-security > 67.207.67.3: ICMP comp3134-winter-2022-intro-to-cyber-security udp port 42491 unreachable, length 155
+07:07:51.614598 IP comp3134-winter-2022-intro-to-cyber-security.41763 > 67.207.67.3.domain: 57645+ PTR? 58.158.182.147.in-addr.arpa. (45)
+07:07:51.614643 IP comp3134-winter-2022-intro-to-cyber-security.42859 > 67.207.67.2.domain: 2534+ PTR? 58.158.182.147.in-addr.arpa. (45)
+07:07:51.614713 IP 67.207.67.3.domain > comp3134-winter-2022-intro-to-cyber-security.54392: 3888 NXDomain 0/1/1 (123)
+07:07:51.614831 IP 67.207.67.3.domain > comp3134-winter-2022-intro-to-cyber-security.41763: 57645 NXDomain 0/1/0 (112)
+07:07:51.614843 IP comp3134-winter-2022-intro-to-cyber-security.54392 > 67.207.67.3.domain: 3888+ PTR? 58.158.182.147.in-addr.arpa. (45)
+07:07:51.614905 IP 67.207.67.2.domain > comp3134-winter-2022-intro-to-cyber-security.42859: 2534 NXDomain 0/1/0 (112)
+07:07:51.615062 IP 67.207.67.3.domain > comp3134-winter-2022-intro-to-cyber-security.54392: 3888 NXDomain 0/1/0 (112)
+07:07:51.615552 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 288:580, ack 1, win 501, options [nop,nop,TS val 3371413552 ecr 796783041], length 292
+07:07:51.615652 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 580:616, ack 1, win 501, options [nop,nop,TS val 3371413553 ecr 796783041], length 36
+07:07:51.615758 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 616:884, ack 1, win 501, options [nop,nop,TS val 3371413553 ecr 796783041], length 268
+07:07:51.615845 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 884:920, ack 1, win 501, options [nop,nop,TS val 3371413553 ecr 796783041], length 36
+07:07:51.615952 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 920:1188, ack 1, win 501, options [nop,nop,TS val 3371413553 ecr 796783041], length 268
+07:07:51.616462 IP comp3134-winter-2022-intro-to-cyber-security.55782 > 67.207.67.3.domain: 41848+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+07:07:51.616576 IP comp3134-winter-2022-intro-to-cyber-security.34570 > 67.207.67.2.domain: 23827+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+07:07:51.616659 IP 67.207.67.3.domain > comp3134-winter-2022-intro-to-cyber-security.55782: 41848 NXDomain 0/1/1 (120)
+07:07:51.616695 IP comp3134-winter-2022-intro-to-cyber-security.52899 > 67.207.67.3.domain: 4063+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+07:07:51.616812 IP 67.207.67.2.domain > comp3134-winter-2022-intro-to-cyber-security.34570: 23827 NXDomain 0/1/1 (120)
+07:07:51.616849 IP comp3134-winter-2022-intro-to-cyber-security.55782 > 67.207.67.3.domain: 41848+ PTR? 3.67.207.67.in-addr.arpa. (42)
+07:07:51.616909 IP comp3134-winter-2022-intro-to-cyber-security.34570 > 67.207.67.2.domain: 23827+ PTR? 3.67.207.67.in-addr.arpa. (42)
+07:07:51.616923 IP 67.207.67.3.domain > comp3134-winter-2022-intro-to-cyber-security.52899: 4063 NXDomain 0/1/1 (120)
+07:07:51.616977 IP 67.207.67.3.domain > comp3134-winter-2022-intro-to-cyber-security.55782: 41848 NXDomain 0/1/0 (109)
+07:07:51.618153 IP comp3134-winter-2022-intro-to-cyber-security.44641 > 67.207.67.3.domain: 36550+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+07:07:51.618230 IP comp3134-winter-2022-intro-to-cyber-security.43349 > 67.207.67.2.domain: 56719+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+07:07:51.618299 IP comp3134-winter-2022-intro-to-cyber-security.42796 > 67.207.67.3.domain: 45481+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+07:07:51.628361 IP cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 108, win 509, options [nop,nop,TS val 796783067 ecr 3371413543], length 0
+07:07:51.628429 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 1188:4084, ack 1, win 501, options [nop,nop,TS val 3371413565 ecr 796783067], length 2896
+07:07:51.628450 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 4084:6980, ack 1, win 501, options [nop,nop,TS val 3371413565 ecr 796783067], length 2896
+07:07:51.637112 IP cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 1188, win 512, options [nop,nop,TS val 796783071 ecr 3371413553], length 0
+07:07:51.637217 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 6980:9876, ack 1, win 501, options [nop,nop,TS val 3371413574 ecr 796783071], length 2896
+07:07:51.637281 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 9876:10240, ack 1, win 501, options [nop,nop,TS val 3371413574 ecr 796783071], length 364
+07:07:51.637441 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 10240:10492, ack 1, win 501, options [nop,nop,TS val 3371413574 ecr 796783071], length 252
+07:07:51.637513 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 10492:10528, ack 1, win 501, options [nop,nop,TS val 3371413574 ecr 796783071], length 36
+07:07:51.637596 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 10528:10796, ack 1, win 501, options [nop,nop,TS val 3371413575 ecr 796783071], length 268
+07:07:51.637654 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 10796:10832, ack 1, win 501, options [nop,nop,TS val 3371413575 ecr 796783071], length 36
+07:07:51.637718 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 10832:11100, ack 1, win 501, options [nop,nop,TS val 3371413575 ecr 796783071], length 268
+07:07:51.637773 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 11100:11136, ack 1, win 501, options [nop,nop,TS val 3371413575 ecr 796783071], length 36
+07:07:51.637837 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 11136:11404, ack 1, win 501, options [nop,nop,TS val 3371413575 ecr 796783071], length 268
+07:07:51.637885 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 11404:11440, ack 1, win 501, options [nop,nop,TS val 3371413575 ecr 796783071], length 36
+07:07:51.637949 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 11440:11708, ack 1, win 501, options [nop,nop,TS val 3371413575 ecr 796783071], length 268
+07:07:51.637997 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 11708:11744, ack 1, win 501, options [nop,nop,TS val 3371413575 ecr 796783071], length 36
+07:07:51.638058 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 11744:12012, ack 1, win 501, options [nop,nop,TS val 3371413575 ecr 796783071], length 268
+07:07:51.638155 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 12012:12048, ack 1, win 501, options [nop,nop,TS val 3371413575 ecr 796783071], length 36
+07:07:51.638255 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 12048:12316, ack 1, win 501, options [nop,nop,TS val 3371413575 ecr 796783071], length 268
+07:07:51.655579 IP cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 6980, win 514, options [nop,nop,TS val 796783085 ecr 3371413565], length 0
+07:07:51.655660 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 12316:15088, ack 1, win 501, options [nop,nop,TS val 3371413593 ecr 796783085], length 2772
+07:07:51.655900 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 15088:15340, ack 1, win 501, options [nop,nop,TS val 3371413593 ecr 796783085], length 252
+07:07:51.656134 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 15340:15376, ack 1, win 501, options [nop,nop,TS val 3371413593 ecr 796783085], length 36
+07:07:51.656229 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 15376:15652, ack 1, win 501, options [nop,nop,TS val 3371413593 ecr 796783085], length 276
+07:07:51.656303 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 15652:15688, ack 1, win 501, options [nop,nop,TS val 3371413593 ecr 796783085], length 36
+07:07:51.656398 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 15688:15956, ack 1, win 501, options [nop,nop,TS val 3371413593 ecr 796783085], length 268
+07:07:51.656464 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 15956:15992, ack 1, win 501, options [nop,nop,TS val 3371413593 ecr 796783085], length 36
+07:07:51.709211 IP cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 12316, win 511, options [nop,nop,TS val 796783145 ecr 3371413575], length 0
+07:07:51.709277 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 15992:17512, ack 1, win 501, options [nop,nop,TS val 3371413646 ecr 796783145], length 1520
+07:07:51.709447 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 17512:17764, ack 1, win 501, options [nop,nop,TS val 3371413646 ecr 796783145], length 252
+07:07:51.709506 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 17764:17800, ack 1, win 501, options [nop,nop,TS val 3371413646 ecr 796783145], length 36
+07:07:51.709580 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 17800:18076, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 276
+07:07:51.709625 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 18076:18112, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 36
+07:07:51.709679 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 18112:18380, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 268
+07:07:51.709719 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 18380:18416, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 36
+07:07:51.709775 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 18416:18684, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 268
+07:07:51.709813 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 18684:18720, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 36
+07:07:51.709866 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 18720:18988, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 268
+07:07:51.709907 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 18988:19024, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 36
+07:07:51.709959 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 19024:19292, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 268
+07:07:51.709999 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 19292:19328, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 36
+07:07:51.710053 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 19328:19596, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 268
+07:07:51.710095 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 19596:19632, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 36
+07:07:51.710148 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 19632:19900, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 268
+07:07:51.710191 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 19900:19936, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 36
+07:07:51.710244 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 19936:20204, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 268
+07:07:51.710287 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 20204:20240, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 36
+07:07:51.710347 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 20240:20508, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 268
+07:07:51.710404 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 20508:20544, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 36
+07:07:51.710459 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 20544:20812, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 268
+07:07:51.710513 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 20812:20848, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 36
+07:07:51.710567 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 20848:21116, ack 1, win 501, options [nop,nop,TS val 3371413647 ecr 796783145], length 268
+07:07:51.710609 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 21116:21152, ack 1, win 501, options [nop,nop,TS val 3371413648 ecr 796783145], length 36
+07:07:51.710677 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 21152:21420, ack 1, win 501, options [nop,nop,TS val 3371413648 ecr 796783145], length 268
+07:07:51.710718 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 21420:21456, ack 1, win 501, options [nop,nop,TS val 3371413648 ecr 796783145], length 36
+07:07:51.710771 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 21456:21724, ack 1, win 501, options [nop,nop,TS val 3371413648 ecr 796783145], length 268
+07:07:51.710810 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 21724:21760, ack 1, win 501, options [nop,nop,TS val 3371413648 ecr 796783145], length 36
+07:07:51.710863 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 21760:22028, ack 1, win 501, options [nop,nop,TS val 3371413648 ecr 796783145], length 268
+07:07:51.710905 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 22028:22064, ack 1, win 501, options [nop,nop,TS val 3371413648 ecr 796783145], length 36
+07:07:51.717366 IP cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 15088, win 514, options [nop,nop,TS val 796783151 ecr 3371413593], length 0
+07:07:51.717457 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 22064:24960, ack 1, win 501, options [nop,nop,TS val 3371413654 ecr 796783151], length 2896

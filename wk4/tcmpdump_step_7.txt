@@ -1,0 +1,104 @@
+root@comp3134-winter-2022-intro-to-cyber-security:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+08:46:10.479287 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.50779: Flags [P.], seq 1891071017:1891071061, ack 2119435704, win 501, options [nop,nop,TS val 3377312416 ecr 802681908], length 44
+08:46:10.479401 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.50779: Flags [P.], seq 44:152, ack 1, win 501, options [nop,nop,TS val 3377312416 ecr 802681908], length 108
+08:46:10.479449 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.50779: Flags [P.], seq 152:188, ack 1, win 501, options [nop,nop,TS val 3377312416 ecr 802681908], length 36
+08:46:10.492241 IP cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.50779 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 44, win 8287, options [nop,nop,TS val 802681929 ecr 3377312411], length 0
+08:46:10.500322 IP cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.50779 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 188, win 8286, options [nop,nop,TS val 802681929 ecr 3377312416], length 0
+08:46:12.065010 IP 174.153.21.46.static.swiftway.net.10446 > comp3134-winter-2022-intro-to-cyber-security.http: Flags [S], seq 27784, win 512, length 0
+08:46:12.065075 IP comp3134-winter-2022-intro-to-cyber-security.http > 174.153.21.46.static.swiftway.net.10446: Flags [S.], seq 91181959, ack 27785, win 64240, options [mss 1460], length 0
+08:46:13.094482 IP comp3134-winter-2022-intro-to-cyber-security.http > 174.153.21.46.static.swiftway.net.10446: Flags [S.], seq 91181959, ack 27785, win 64240, options [mss 1460], length 0
+08:46:15.110455 IP comp3134-winter-2022-intro-to-cyber-security.http > 174.153.21.46.static.swiftway.net.10446: Flags [S.], seq 91181959, ack 27785, win 64240, options [mss 1460], length 0
+08:46:18.162394 IP 45.134.26.238.50157 > comp3134-winter-2022-intro-to-cyber-security.40581: Flags [S], seq 2614165893, win 1024, length 0
+08:46:19.142473 IP comp3134-winter-2022-intro-to-cyber-security.http > 174.153.21.46.static.swiftway.net.10446: Flags [S.], seq 91181959, ack 27785, win 64240, options [mss 1460], length 0
+08:46:22.068062 IP peek-a-boo.icu.37575 > comp3134-winter-2022-intro-to-cyber-security.http: Flags [S], seq 1934111590, win 8192, length 0
+08:46:22.068136 IP comp3134-winter-2022-intro-to-cyber-security.http > peek-a-boo.icu.37575: Flags [S.], seq 2580765462, ack 1934111591, win 64240, options [mss 1460], length 0
+08:46:25.734011 IP 180.76.111.146.54702 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [S], seq 2353097741, win 29200, options [mss 1460,sackOK,TS val 1666721009 ecr 0,nop,wscale 7], length 0
+08:46:25.734101 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [S.], seq 3556973270, ack 2353097742, win 65160, options [mss 1460,sackOK,TS val 1484139359 ecr 1666721009,nop,wscale 7], length 0
+08:46:25.981243 IP 180.76.111.146.54702 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 1666721256 ecr 1484139359], length 0
+08:46:25.993509 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [P.], seq 1:42, ack 1, win 510, options [nop,nop,TS val 1484139618 ecr 1666721256], length 41
+08:46:26.239898 IP 180.76.111.146.54702 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 1666721515 ecr 1484139618], length 0
+08:46:26.244837 IP 180.76.111.146.54702 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 1:22, ack 42, win 229, options [nop,nop,TS val 1666721520 ecr 1484139618], length 21
+08:46:26.818495 IP 180.76.111.146.54702 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 1:22, ack 42, win 229, options [nop,nop,TS val 1666722094 ecr 1484139618], length 21
+08:46:26.818567 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [.], ack 22, win 510, options [nop,nop,TS val 1484140443 ecr 1666722094], length 0
+08:46:26.820171 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [P.], seq 42:1098, ack 22, win 510, options [nop,nop,TS val 1484140445 ecr 1666722094], length 1056
+08:46:27.067285 IP 180.76.111.146.54702 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 22:462, ack 1098, win 245, options [nop,nop,TS val 1666722342 ecr 1484140445], length 440
+08:46:27.067345 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [.], ack 462, win 507, options [nop,nop,TS val 1484140692 ecr 1666722342], length 0
+08:46:27.314000 IP 180.76.111.146.54702 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 462:510, ack 1098, win 245, options [nop,nop,TS val 1666722589 ecr 1484140692], length 48
+08:46:27.314045 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [.], ack 510, win 507, options [nop,nop,TS val 1484140939 ecr 1666722589], length 0
+08:46:27.319384 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [P.], seq 1098:1378, ack 510, win 507, options [nop,nop,TS val 1484140944 ecr 1666722589], length 280
+08:46:27.334489 IP comp3134-winter-2022-intro-to-cyber-security.http > 174.153.21.46.static.swiftway.net.10446: Flags [S.], seq 91181959, ack 27785, win 64240, options [mss 1460], length 0
+08:46:27.570874 IP 180.76.111.146.54702 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 510:526, ack 1378, win 262, options [nop,nop,TS val 1666722846 ecr 1484140944], length 16
+08:46:27.570954 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [.], ack 526, win 507, options [nop,nop,TS val 1484141196 ecr 1666722846], length 0
+08:46:27.817407 IP 180.76.111.146.54702 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 526:578, ack 1378, win 262, options [nop,nop,TS val 1666723092 ecr 1484141196], length 52
+08:46:27.817455 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [.], ack 578, win 507, options [nop,nop,TS val 1484141442 ecr 1666723092], length 0
+08:46:27.817603 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [P.], seq 1378:1430, ack 578, win 507, options [nop,nop,TS val 1484141443 ecr 1666723092], length 52
+08:46:28.074674 IP 180.76.111.146.54702 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 578:662, ack 1430, win 262, options [nop,nop,TS val 1666723350 ecr 1484141443], length 84
+08:46:28.118453 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [.], ack 662, win 507, options [nop,nop,TS val 1484141743 ecr 1666723350], length 0
+08:46:31.927781 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [P.], seq 1430:1498, ack 662, win 507, options [nop,nop,TS val 1484145553 ecr 1666723350], length 68
+08:46:32.518439 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [P.], seq 1430:1498, ack 662, win 507, options [nop,nop,TS val 1484146143 ecr 1666723350], length 68
+08:46:32.769759 IP 180.76.111.146.54702 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 662:714, ack 1498, win 262, options [nop,nop,TS val 1666728045 ecr 1484146143], length 52
+08:46:32.769760 IP 180.76.111.146.54702 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [F.], seq 714, ack 1498, win 262, options [nop,nop,TS val 1666728045 ecr 1484146143], length 0
+08:46:32.769825 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [.], ack 714, win 507, options [nop,nop,TS val 1484146395 ecr 1666728045], length 0
+08:46:32.771198 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 180.76.111.146.54702: Flags [F.], seq 1498, ack 715, win 507, options [nop,nop,TS val 1484146396 ecr 1666728045], length 0
+08:46:33.017660 IP 180.76.111.146.54702 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 1499, win 262, options [nop,nop,TS val 1666728293 ecr 1484146396], length 0
+08:46:33.025512 IP 171.244.139.236.21413 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [S], seq 2251490119, win 29200, options [mss 1460,sackOK,TS val 1554323563 ecr 0,nop,wscale 7], length 0
+08:46:33.025574 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 171.244.139.236.21413: Flags [S.], seq 3122178903, ack 2251490120, win 65160, options [mss 1460,sackOK,TS val 3229776617 ecr 1554323563,nop,wscale 7], length 0
+08:46:33.291399 IP 171.244.139.236.21413 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 1554323629 ecr 3229776617], length 0
+08:46:33.302586 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 171.244.139.236.21413: Flags [P.], seq 1:42, ack 1, win 510, options [nop,nop,TS val 3229776894 ecr 1554323629], length 41
+08:46:33.568013 IP 171.244.139.236.21413 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 1554323698 ecr 3229776894], length 0
+08:46:33.568120 IP 171.244.139.236.21413 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 1:22, ack 42, win 229, options [nop,nop,TS val 1554323698 ecr 3229776894], length 21
+08:46:33.568139 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 171.244.139.236.21413: Flags [.], ack 22, win 510, options [nop,nop,TS val 3229777160 ecr 1554323698], length 0
+08:46:33.569861 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 171.244.139.236.21413: Flags [P.], seq 42:1098, ack 22, win 510, options [nop,nop,TS val 3229777162 ecr 1554323698], length 1056
+08:46:33.835668 IP 171.244.139.236.21413 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 22:462, ack 1098, win 245, options [nop,nop,TS val 1554323765 ecr 3229777162], length 440
+08:46:33.835731 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 171.244.139.236.21413: Flags [.], ack 462, win 507, options [nop,nop,TS val 3229777428 ecr 1554323765], length 0
+08:46:34.101352 IP 171.244.139.236.21413 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 462:510, ack 1098, win 245, options [nop,nop,TS val 1554323832 ecr 3229777428], length 48
+08:46:34.101415 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 171.244.139.236.21413: Flags [.], ack 510, win 507, options [nop,nop,TS val 3229777693 ecr 1554323832], length 0
+08:46:34.107276 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 171.244.139.236.21413: Flags [P.], seq 1098:1378, ack 510, win 507, options [nop,nop,TS val 3229777699 ecr 1554323832], length 280
+08:46:34.377175 IP 171.244.139.236.21413 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 510:526, ack 1378, win 262, options [nop,nop,TS val 1554323901 ecr 3229777699], length 16
+08:46:34.377246 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 171.244.139.236.21413: Flags [.], ack 526, win 507, options [nop,nop,TS val 3229777969 ecr 1554323901], length 0
+08:46:34.642805 IP 171.244.139.236.21413 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 526:578, ack 1378, win 262, options [nop,nop,TS val 1554323967 ecr 3229777969], length 52
+08:46:34.642868 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 171.244.139.236.21413: Flags [.], ack 578, win 507, options [nop,nop,TS val 3229778235 ecr 1554323967], length 0
+08:46:34.643031 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 171.244.139.236.21413: Flags [P.], seq 1378:1430, ack 578, win 507, options [nop,nop,TS val 3229778235 ecr 1554323967], length 52
+08:46:34.775031 IP scanner-12.ch1.censys-scanner.com.22505 > comp3134-winter-2022-intro-to-cyber-security.2327: Flags [S], seq 2285149098, win 1024, options [mss 1460], length 0
+08:46:34.822192 IP peek-a-boo.icu.37575 > comp3134-winter-2022-intro-to-cyber-security.http: Flags [S], seq 1934111590, win 8192, length 0
+08:46:34.822290 IP comp3134-winter-2022-intro-to-cyber-security.http > peek-a-boo.icu.37575: Flags [S.], seq 2580765462, ack 1934111591, win 64240, options [mss 1460], length 0
+08:46:34.908500 IP 171.244.139.236.21413 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 578:662, ack 1430, win 262, options [nop,nop,TS val 1554324033 ecr 3229778235], length 84
+08:46:34.950454 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 171.244.139.236.21413: Flags [.], ack 662, win 507, options [nop,nop,TS val 3229778542 ecr 1554324033], length 0
+08:46:38.402998 IP 45.134.26.45.50022 > comp3134-winter-2022-intro-to-cyber-security.54963: Flags [S], seq 585362262, win 1024, length 0
+08:46:38.761614 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 171.244.139.236.21413: Flags [P.], seq 1430:1498, ack 662, win 507, options [nop,nop,TS val 3229782354 ecr 1554324033], length 68
+08:46:39.027383 IP 171.244.139.236.21413 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 662:714, ack 1498, win 262, options [nop,nop,TS val 1554325063 ecr 3229782354], length 52
+08:46:39.027383 IP 171.244.139.236.21413 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [F.], seq 714, ack 1498, win 262, options [nop,nop,TS val 1554325063 ecr 3229782354], length 0
+08:46:39.027433 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 171.244.139.236.21413: Flags [.], ack 714, win 507, options [nop,nop,TS val 3229782619 ecr 1554325063], length 0
+08:46:39.028717 IP comp3134-winter-2022-intro-to-cyber-security.ssh > 171.244.139.236.21413: Flags [F.], seq 1498, ack 715, win 507, options [nop,nop,TS val 3229782621 ecr 1554325063], length 0
+08:46:39.294232 IP 171.244.139.236.21413 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 1499, win 262, options [nop,nop,TS val 1554325130 ecr 3229782621], length 0
+08:46:43.462489 IP comp3134-winter-2022-intro-to-cyber-security.http > 174.153.21.46.static.swiftway.net.10446: Flags [S.], seq 91181959, ack 27785, win 64240, options [mss 1460], length 0
+08:46:44.061923 IP peek-a-boo.icu.37575 > comp3134-winter-2022-intro-to-cyber-security.http: Flags [S], seq 1934111590, win 8192, length 0
+08:46:44.061977 IP comp3134-winter-2022-intro-to-cyber-security.http > peek-a-boo.icu.37575: Flags [S.], seq 2580765462, ack 1934111591, win 64240, options [mss 1460], length 0
+08:46:49.446777 IP hosting-by.4cloud.mobi.48007 > comp3134-winter-2022-intro-to-cyber-security.34650: Flags [S], seq 818482700, win 1024, length 0
+08:46:54.132774 IP peek-a-boo.icu.37575 > comp3134-winter-2022-intro-to-cyber-security.http: Flags [S], seq 1934111590, win 8192, length 0
+08:46:54.132833 IP comp3134-winter-2022-intro-to-cyber-security.http > peek-a-boo.icu.37575: Flags [S.], seq 2580765462, ack 1934111591, win 64240, options [mss 1460], length 0
+08:46:55.583469 IP esiquewat.xyz.36684 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [S], seq 722302238, win 64240, options [mss 1460,sackOK,TS val 393005937 ecr 0,nop,wscale 7], length 0
+08:46:55.583536 IP comp3134-winter-2022-intro-to-cyber-security.ssh > esiquewat.xyz.36684: Flags [S.], seq 3861933917, ack 722302239, win 65160, options [mss 1460,sackOK,TS val 592211986 ecr 393005937,nop,wscale 7], length 0
+08:46:55.678340 IP esiquewat.xyz.36684 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 393006032 ecr 592211986], length 0
+08:46:55.689139 IP comp3134-winter-2022-intro-to-cyber-security.ssh > esiquewat.xyz.36684: Flags [P.], seq 1:42, ack 1, win 510, options [nop,nop,TS val 592212092 ecr 393006032], length 41
+08:46:55.783699 IP esiquewat.xyz.36684 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [.], ack 42, win 502, options [nop,nop,TS val 393006138 ecr 592212092], length 0
+08:46:55.783699 IP esiquewat.xyz.36684 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 1:22, ack 42, win 502, options [nop,nop,TS val 393006138 ecr 592212092], length 21
+08:46:55.783746 IP comp3134-winter-2022-intro-to-cyber-security.ssh > esiquewat.xyz.36684: Flags [.], ack 22, win 510, options [nop,nop,TS val 592212187 ecr 393006138], length 0
+08:46:55.785363 IP comp3134-winter-2022-intro-to-cyber-security.ssh > esiquewat.xyz.36684: Flags [P.], seq 42:1098, ack 22, win 510, options [nop,nop,TS val 592212188 ecr 393006138], length 1056
+08:46:55.882321 IP esiquewat.xyz.36684 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 22:462, ack 1098, win 501, options [nop,nop,TS val 393006236 ecr 592212188], length 440
+08:46:55.882385 IP comp3134-winter-2022-intro-to-cyber-security.ssh > esiquewat.xyz.36684: Flags [.], ack 462, win 507, options [nop,nop,TS val 592212285 ecr 393006236], length 0
+08:46:55.976804 IP esiquewat.xyz.36684 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 462:510, ack 1098, win 501, options [nop,nop,TS val 393006331 ecr 592212285], length 48
+08:46:55.976861 IP comp3134-winter-2022-intro-to-cyber-security.ssh > esiquewat.xyz.36684: Flags [.], ack 510, win 507, options [nop,nop,TS val 592212380 ecr 393006331], length 0
+08:46:55.987278 IP comp3134-winter-2022-intro-to-cyber-security.ssh > esiquewat.xyz.36684: Flags [P.], seq 1098:1378, ack 510, win 507, options [nop,nop,TS val 592212390 ecr 393006331], length 280
+08:46:56.083349 IP esiquewat.xyz.36684 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 510:526, ack 1378, win 501, options [nop,nop,TS val 393006437 ecr 592212390], length 16
+08:46:56.083397 IP comp3134-winter-2022-intro-to-cyber-security.ssh > esiquewat.xyz.36684: Flags [.], ack 526, win 507, options [nop,nop,TS val 592212486 ecr 393006437], length 0
+08:46:56.177876 IP esiquewat.xyz.36684 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 526:578, ack 1378, win 501, options [nop,nop,TS val 393006532 ecr 592212486], length 52
+08:46:56.177935 IP comp3134-winter-2022-intro-to-cyber-security.ssh > esiquewat.xyz.36684: Flags [.], ack 578, win 507, options [nop,nop,TS val 592212581 ecr 393006532], length 0
+08:46:56.178093 IP comp3134-winter-2022-intro-to-cyber-security.ssh > esiquewat.xyz.36684: Flags [P.], seq 1378:1430, ack 578, win 507, options [nop,nop,TS val 592212581 ecr 393006532], length 52
+08:46:56.272593 IP esiquewat.xyz.36684 > comp3134-winter-2022-intro-to-cyber-security.ssh: Flags [P.], seq 578:662, ack 1430, win 501, options [nop,nop,TS val 393006627 ecr 592212581], length 84
+08:46:56.311408 IP 45.134.26.234.50099 > comp3134-winter-2022-intro-to-cyber-security.11272: Flags [S], seq 1713735223, win 1024, length 0
+08:46:56.314451 IP comp3134-winter-2022-intro-to-cyber-security.ssh > esiquewat.xyz.36684: Flags [.], ack 662, win 507, options [nop,nop,TS val 592212717 ecr 393006627], length 0
+08:46:57.073885 IP 43.130.10.173.25496 > comp3134-winter-2022-intro-to-cyber-security.omniorb: Flags [S], seq 424772622, win 65535, options [mss 1424,nop,wscale 8,nop,nop,sackOK], length 0
+^Z
+[4]+  Stopped                 tcpdump -r 0001.pcap

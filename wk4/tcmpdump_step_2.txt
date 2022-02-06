@@ -1,0 +1,11 @@
+root@comp3134-winter-2022-intro-to-cyber-security:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+07:05:52.906664 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 1028278815:1028278923, ack 1998886969, win 501, options [nop,nop,TS val 3371294844 ecr 796664332], length 108
+07:05:52.906764 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 3371294844 ecr 796664332], length 36
+07:05:52.906893 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 144:252, ack 1, win 501, options [nop,nop,TS val 3371294844 ecr 796664332], length 108
+07:05:52.906972 IP comp3134-winter-2022-intro-to-cyber-security.ssh > cpe64777d6503a3-cm64777d6503a0.sdns.net.rogers.com.49227: Flags [P.], seq 252:288, ack 1, win 501, options [nop,nop,TS val 3371294844 ecr 796664332], length 36
+07:05:52.908001 IP comp3134-winter-2022-intro-to-cyber-security.50358 > 67.207.67.3.domain: 37717+ [1au] PTR? 247.10.253.99.in-addr.arpa. (55)
+5 packets captured
+35 packets received by filter
+0 packets dropped by kernel
